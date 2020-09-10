@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61f9e4cf-099c-4348-a7a7-0e789caf3c9b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\Program Files\Idea Toolbox\apps\IDEA-U\ch-0\202.6948.69\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hBhPk0DgSXbXfxylIs9jsNPSjb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baker/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tenga_000\Desktop\ViennaPieShop\Baker\src\main\resources" />
+      <recent name="C:\Users\tenga_000\Desktop\ViennaPieShop\Customer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Baker">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baker" />
+      <module name="Baker" />
+      <option name="PROGRAM_PARAMETERS" value="6000 2 1 2 " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Customer" />
+      <module name="Customer" />
+      <option name="PROGRAM_PARAMETERS" value="6000 3 10 1 1 1 1 1 1 1 1 1 1 " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PieShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PieShop" />
+      <module name="PieShop" />
+      <option name="PROGRAM_PARAMETERS" value="6000 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Baker" />
+      <item itemvalue="Application.Customer" />
+      <item itemvalue="Application.PieShop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Baker" />
+        <item itemvalue="Application.Customer" />
+        <item itemvalue="Application.PieShop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61f9e4cf-099c-4348-a7a7-0e789caf3c9b" name="Default Changelist" comment="" />
+      <created>1599490370639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599490370639</updated>
+      <workItem from="1599767739801" duration="2810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1599760719405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599760719405" />
+    <state x="414" y="175" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599768004063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599768004063" />
+    <state x="730" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599758060464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599758060464" />
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599494811588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599494811588" />
+    <state width="1430" height="348" key="GridCell.Tab.0.bottom" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.0.center" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.0.left" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.0.right" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.1.bottom" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.1.center" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.1.left" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state width="1430" height="348" key="GridCell.Tab.1.right" timestamp="1599770480497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1430" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599770480497" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1599637220125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599637220125" />
+    <state x="607" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599769954295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599769954295" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1599768527339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599768527339" />
+    <state x="342" y="140" key="new project wizard" timestamp="1599673778920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599673778920" />
+    <state x="702" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1599730701172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599730701172" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599496472324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599496472324" />
+  </component>
+</project>
