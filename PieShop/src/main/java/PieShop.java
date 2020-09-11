@@ -1,9 +1,3 @@
-
-
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -13,8 +7,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class PieShop {
-
-    private static final Logger logger = LoggerFactory.getLogger(PieShop.class);
 
     private ServerSocket server = null;
     private Socket socket = null;
@@ -29,13 +21,13 @@ public class PieShop {
 
         try {
             server = new ServerSocket(port);
-            logger.info("server started");
-            logger.info("waiting for a client");
+            System.out.println("server started");
+            System.out.println("waiting for a client");
 
             while (true) {
                 try {
                     socket = server.accept();
-                    logger.info("client accepted");
+                    System.out.println("client accepted");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -46,7 +38,7 @@ public class PieShop {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        logger.info("closing connection");
+        System.out.println("closing connection");
         try {
             socket.close();
             in.close();
@@ -62,10 +54,4 @@ public class PieShop {
 
         new PieShop(p, y);
     }
-
-    //1. Similar approach for customer threads - DONE
-    //2. Segregate threads in the server based on type - baker/customer - DONE
-    //3. Configure all modules to take arguments - DONE?
-    //4. Solve the customer waiting problem !!!
-    //n. Clean up code
 }
