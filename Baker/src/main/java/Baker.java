@@ -8,7 +8,6 @@ public class Baker {
 
         List<BakerThread> bakerThreadList = new LinkedList<>();
         int timeMakingPie;
-        int coutOfBakers;
 
         //port
         int p = Integer.parseInt(args[0]);
@@ -19,7 +18,6 @@ public class Baker {
         for (int i = 0; i < n; i++) {
             //seconds to make a pie
             timeMakingPie = Integer.parseInt(args[i + 2]);
-            coutOfBakers = Integer.parseInt(args[1]);
             System.out.println(" +++++++ SECONDS FOR BAKE+++++++ " + timeMakingPie);
             bakerThreadList.add(new BakerThread(p, timeMakingPie));
         }

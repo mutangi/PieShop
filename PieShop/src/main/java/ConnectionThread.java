@@ -18,16 +18,15 @@ public class ConnectionThread extends Thread {
     protected AtomicInteger pieCount;
     private CountDownLatch waitingLatch;
     private Date date = new Date();
-    Queue<String> ministryOfFinance = new ConcurrentLinkedQueue<>();
-    private boolean exit;
+//    Queue<String> ministryOfFinance = new ConcurrentLinkedQueue<>();
+//    private boolean exit;
 //    boolean closeTheShop = true;
 //    List<String> ministryOfFinance = new ArrayList<>();
-//    new Timestamp(date.getTime())
 
     public ConnectionThread(Socket clientSocket, AtomicInteger pieCount) {
         this.socket = clientSocket;
         this.pieCount = pieCount;
-        exit = false;
+//        exit = false;
     }
 
     public void run() {
@@ -65,17 +64,14 @@ public class ConnectionThread extends Thread {
                             waitingQueue.add(this);
                             waitingLatch.await();
                         }
-                        //count = pieCount.decrementAndGet();
                         out.writeUTF("HAS_PIE");
                         System.out.println("New pie given to: " + customerId + new Timestamp(date.getTime()));
                         System.out.println("The shop has pies left " + count);
                     }
                 } else if (line != null && line.contains("STOP")) {
-//                    System.out.println("-----MINISTRY REPORT-----");
-//                    for (String s : ministryOfFinance) {
-//                        System.out.println(s);
-//                    }
-//                    System.out.println("-----END OF REPORT-----");
+
+                    //TODO proper reporting (slf4j)
+//                  generateReport(ministryOfFinance);
                     System.out.println("@@@@@@@@@@@@@@@@@@@@@ END OF THE DAY @@@@@@@@@@@@@@@@@@@@@");
                     System.exit(1);
                 }
@@ -95,6 +91,12 @@ public class ConnectionThread extends Thread {
     public CountDownLatch getWaitingLatch() {
         return waitingLatch;
     }
-}
 
-//    shop records every pie received and every pie sold, together with the identity of the baker/customer and the exact time of the transaction.
+//    public void generateReport(Queue<String> allRecords) {
+//                    System.out.println("-----MINISTRY REPORT-----");
+//                    for (String s : ministryOfFinance) {
+//                        System.out.println(s);
+//                    }
+//                    System.out.println("-----END OF REPORT-----");
+//    }
+}

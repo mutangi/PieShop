@@ -49,7 +49,9 @@ public class PieShop {
     }
 
     public static void main(String[] args) {
+        //port
         int p = Integer.parseInt(args[0]);
+        //pies available at start of the day
         int y = Integer.parseInt(args[1]);
 
         new PieShop(p, y);

@@ -3,7 +3,6 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class CustomerThread implements Runnable {
@@ -45,7 +44,7 @@ public class CustomerThread implements Runnable {
                     System.out.println(id + " Customer has PIES LEFT FOR TODAY ======================== " + maximumPiesPerDay);
                 }
             }
-            System.out.println("CUSTOMERS_DONE_EATING " + id);
+            System.out.println("CUSTOMER_DONE_EATING, id: " + id);
             customersCounter.decrementAndGet();
             if (customersCounter.get() <= 0) {
                 output.writeUTF("STOP");

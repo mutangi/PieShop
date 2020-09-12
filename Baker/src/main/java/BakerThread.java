@@ -36,19 +36,6 @@ public class BakerThread implements Runnable {
                 System.out.println(id + " baker: baking pie for seconds " + bakingTime);
                 Thread.sleep(bakingTime * 1000);
 
-//                while (input.available() > 0) {
-//                    String response = "";
-//                    response = input.readUTF();
-//                    if (response.contains("CUSTOMERS_DONE_EATING")) {
-//                        bakersCounter--;
-//                        break;
-//                    }
-//                }
-//
-//                if (bakersCounter == 0) {
-//                    System.out.println("NO MORE CUSTOMERS, CLOSE THE SHOP");
-//                }
-
             }
         } catch (EOFException e) {
             System.out.println("Closing connection!");
